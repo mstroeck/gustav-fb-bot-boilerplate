@@ -35,7 +35,7 @@ Following along with this tutorial will leave you with a **live starter-app** th
     npm install
     ```
 
-6. Create a new Heroku instance, deploy a [free database instance] (https://devcenter.heroku.com/articles/heroku-postgresql) for your server, and push the code to the cloud.  Database configuration happens automagically via Heroku's DATABASE_URL environment variable. We also set an environment variable called ```IS_HEROKU```, because this boilerplate works on any type of host but has some extra smarts for Heroku deployment.
+6. Create a new Heroku instance, deploy a [free database instance] (https://devcenter.heroku.com/articles/heroku-postgresql) for your server, and push the code to the cloud.  Database configuration happens automagically via Heroku's DATABASE_URL environment variable. We also set an environment variable called ```IS_HEROKU```, to let the app know that it should get its config values from environment variables instead of from a .env file. (See .env.sample in the root directory if you're not using Heroku.)
 
     ```
     heroku create
@@ -53,7 +53,7 @@ Following along with this tutorial will leave you with a **live starter-app** th
 
     ![Create a new Facebook App](/public/img/documentation-img/create_new_app.png)
 
-2. In the app, switch to the *Messenger* tab and click *Setup Webhook*. Enter the URL of your Heroku instance and append */webhook/*. (For example: *https://mighty-island-93912.herokuapp.com/webhook/*. It needs to be https://). Make sure you check all the subscription fields. Also create and enter a verify-token. Keep this safe.
+2. In the app, switch to the *Messenger* tab and click *Setup Webhook*. Enter the URL of your Heroku instance and append */webhook/*. (For example: *https://mighty-island-93912.herokuapp.com/webhook/*. It needs to be https://). Make sure you check all the subscription fields. Also create and enter a verify-token. Keep this safe. If you later want to change the webhook URL, you need to do so in the *Webhooks* tab of your app.
 
     ![Set up your bot's webhook URL](/public/img/documentation-img/webhook_subscription_1.png)
 
