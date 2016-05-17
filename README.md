@@ -1,17 +1,16 @@
 # 🤖 Bleep bloop, I'm a bot. Build your own Facebook Messenger bot.
 
-Some of the code snippets were taken from Facebook's [official documentation](https://developers.facebook.com/docs/messenger-platform/quickstart). The docs are concise, but not exactly easy follow if you haven't built a bot and hooked it up to your app or page before. Your best bet in general might be their [Complete Guide] (https://developers.facebook.com/docs/messenger-platform/implementation) for the Messenger platform.
+Note: Most of the API-specific code snippets were taken from Facebook's [official documentation](https://developers.facebook.com/docs/messenger-platform/quickstart) to make it easy to cross-reference.
+
+## What to expect
+
+Following along with this tutorial will leave you with a **live starter-app** that implements a Facebook Messenger bot. **Deployed to Heroku with a fun little landing page, persisting data, ready to rumble.** Along the way, you will also learn how to use Heroku's free tier for hacking on projects like this. It **should take between 15 and 30 minutes** depending on prior experience.
 
 ## Quickstart
 
 If you already know your way around [Heroku](https://www.heroku.com), use the deploy button and skip ahead to [setting up your Facebook page and app](#configure-facebook).
 
 [![Deploy my app to Heroku](https://www.herokucdn.com/deploy/button.png)] (https://heroku.com/deploy)
-
-## What to expect
-
-Following along with this tutorial will leave you with a **live starter-app** that implements a Facebook Messenger bot. **Deployed to Heroku with a fun little landing page, persisting data, ready to rumble.** Along the way, you will also learn how to use Heroku's free tier for hacking on projects like this. It **should take between 15 and 30 minutes** depending on prior experience.
-
 
 ## The basics
 
@@ -91,9 +90,12 @@ heroku config:set FB_PAGE_ID=your-page-id-here
 
 ## OK, so what now?
 
+* Read the official documentation for Messenger Platform. The docs are concise, but not exactly easy follow if you haven't built a bot and hooked it up to your app or page before. Your best bet in general might be the [Complete Guide] (https://developers.facebook.com/docs/messenger-platform/implementation).
+
 * If you want to make your bot available publicly, you will have to go through Facebook's [app review process] (https://developers.facebook.com/docs/messenger-platform/app-review) for Messenger bots.
 
 * Once you've wrapped your head around how this stuff works in general, it might be a good idea to switch to one of the merging libraries for talking to the Messenger API, such as [messenger-bot] (https://github.com/namuol/messenger-bot).
 
 * [Wit.ai](https://wit.ai) is a service that lets you easily create text or voice based bots that humans can chat with on their preferred messaging platform. Basic wit.ai functionality will be baked into this starter app at some point in the future.
+
 
