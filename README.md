@@ -2,6 +2,11 @@
 
 Some of the code snippets were taken from Facebook's [official documentation](https://developers.facebook.com/docs/messenger-platform/quickstart). The docs are concise, but not exactly easy follow if you haven't built a bot and hooked it up to your app or page before. Your best bet in general might be their [Complete Guide] (https://developers.facebook.com/docs/messenger-platform/implementation) for the Messenger platform.
 
+## Quickstart
+
+If you already know your way around [Heroku], use the deploy button and skip ahead to [setting up your Facebook page and app](#configure-facebook).
+
+[![Deploy my app to Heroku](https://www.herokucdn.com/deploy/button.png)] (https://heroku.com/deploy)
 
 ## What to expect
 
@@ -47,7 +52,7 @@ Following along with this tutorial will leave you with a **live starter-app** th
 7. You should be all set and be able to visit your page at the URL that was output by ```$ heroku create```. You can show the database settings your app is using with the command ```$ heroku config```. You can use the login data to inspect the database with your favourite client to see what's going on.
 
 
-### Setup your Facebook App
+### <a name="configure-facebook"></a> Setup your Facebook App
 
 1. Create or configure a Facebook App here (https://developers.facebook.com/apps/). (You also probably should set up a new Facebook Page while you're at it - don't use a page you are already using in production.)
 
