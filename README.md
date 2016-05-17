@@ -94,7 +94,7 @@ heroku config:set FB_PAGE_ID=your-page-id-here
 
 * If you want to make your bot available publicly, you will have to go through Facebook's [app review process] (https://developers.facebook.com/docs/messenger-platform/app-review) for Messenger bots.
 
-* Once you've wrapped your head around how this stuff works in general, it might be a good idea to switch to one of the merging libraries for talking to the Messenger API, such as [messenger-bot] (https://github.com/namuol/messenger-bot).
+* Once you've wrapped your head around how this stuff works in general, it might be a good idea to switch to one of the emerging libraries for talking to the Messenger API, such as [messenger-bot] (https://github.com/namuol/messenger-bot).
 
 * [Wit.ai](https://wit.ai) is a service that lets you easily create text or voice based bots that humans can chat with on their preferred messaging platform. Basic wit.ai functionality will be baked into this starter app at some point in the future.
 
