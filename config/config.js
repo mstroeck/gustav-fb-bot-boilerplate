@@ -1,6 +1,8 @@
 var path = require('path'),
     rootPath = path.normalize(__dirname + '/..');
 
+// Keep in mind that Heroku environment variables are Linux environment variables.
+// There are no boolean values, only strings. "IS_HEROKU=false" will make the following fail.
 if (!process.env.IS_HEROKU) {
   var dotenv = require('dotenv').config({path: rootPath + '/.env'});
 }

@@ -8,7 +8,7 @@
   "env": {
     "NODE_ENV": "development",
     "APP_NAME": "Beavr Bot Boilerplate",
-    "IS_HEROKU": 1
+    "IS_HEROKU": "true"
   }
 }
 
