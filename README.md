@@ -4,7 +4,7 @@ Some of the code snippets were taken from Facebook's [official documentation](ht
 
 ## Quickstart
 
-If you already know your way around [Heroku], use the deploy button and skip ahead to [setting up your Facebook page and app](#configure-facebook).
+If you already know your way around [Heroku](https://www.heroku.com), use the deploy button and skip ahead to [setting up your Facebook page and app](#configure-facebook).
 
 [![Deploy my app to Heroku](https://www.herokucdn.com/deploy/button.png)] (https://heroku.com/deploy)
 
