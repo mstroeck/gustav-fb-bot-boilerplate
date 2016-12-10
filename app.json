@@ -1,13 +1,12 @@
 {
-  "name": "beavr-bot-boilerplate",
+  "name": "gustav-bot-boilerplate",
   "description": "A basic starter-app for getting into Facebook Messenger Platform bots.",
-  "website": "https://bot-boilerplate.beavr.com",
-  "repository": "https://github.com/mstroeck/beavr-bot-boilerplate",
-  "keywords": ["beavr", "beavr-bot-boilerplate", "chatbot", "messenger", "facebook"],
+  "repository": "https://github.com/hellogustav/gustav-fb-bot-boilerplate",
+  "keywords": ["beavr", "gustav-fb-bot-boilerplate", "chatbot", "messenger", "facebook"],
   "addons": ["heroku-postgresql:hobby-dev"],
   "env": {
     "NODE_ENV": "development",
-    "APP_NAME": "Beavr Bot Boilerplate",
+    "APP_NAME": "Gustav Bot Boilerplate",
     "IS_HEROKU": "true"
   }
 }
