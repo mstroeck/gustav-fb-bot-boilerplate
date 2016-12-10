@@ -29,8 +29,8 @@ If you already know your way around [Heroku](https://www.heroku.com), use the de
 4. Clone this project and switch into the project directory.
 
     ```
-    git clone https://github.com/Beavr/fb-chatbot-boilerplate.git
-    cd fb-chatbot-boilerplate
+    git clone https://github.com/hellogustav/gustav-fb-bot-boilerplate
+    cd gustav-fb-chatbot-boilerplate
     ```
 
 5. Install Node dependencies. We are using [Express] (http://expressjs.com/) for serving stuff, the [Sequelize] (https://github.com/sequelize/sequelize) ORM for database-y stuff, [request] (https://github.com/request/request) and [request-promise] (https://github.com/request/request-promise) for sending and receiving messages, and [body-parser] (https://github.com/expressjs/body-parser) to process responses from Facebook's APIs.
@@ -46,7 +46,7 @@ If you already know your way around [Heroku](https://www.heroku.com), use the de
     heroku config:set IS_HEROKU=1
     heroku addons:create heroku-postgresql:hobby-dev
     git push heroku master
-    ```  
+    ```
 
 7. You should be all set and be able to visit your page at the URL that was output by ```$ heroku create```. You can show the database settings your app is using with the command ```$ heroku config```. You can use the login data to inspect the database with your favourite client to see what's going on.
 
@@ -69,7 +69,7 @@ If you already know your way around [Heroku](https://www.heroku.com), use the de
 
     ![Set up a Page Access Token](/public/img/documentation-img/create_access_token.png)
 
-5. Switch back to Terminal and use the following command to trigger your Facebbook app to start sending webhooks. Remember to use the Page Access Token you just created instead of the placeholder at the end of the request. 
+5. Switch back to Terminal and use the following command to trigger your Facebbook app to start sending webhooks. Remember to use the Page Access Token you just created instead of the placeholder at the end of the request.
 
     ```
     curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=<PAGE_ACCESS_TOKEN>"
